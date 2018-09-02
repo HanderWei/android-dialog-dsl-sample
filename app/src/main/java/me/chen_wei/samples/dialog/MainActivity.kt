@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
                 cancelOutside = false
                 title = "Dialog Fragment"
                 message = "A fragment that displays a dialog window, floating on top of its activity's window. "
-                rightClicks {
+                rightClicks(key = "Yes") {
                     toast("Right Button Clicked!")
                 }
             }
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 cancelOutside = true
                 title = "Dialog Fragment"
                 message = "A fragment that displays a dialog window, floating on top of its activity's window. "
-                leftClicks {
+                leftClicks("No", false) {
                     toast("Left Button Clicked!")
                 }
                 rightClicks {
