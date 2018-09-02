@@ -1,6 +1,19 @@
 # android-dialog-dsl-sample
 
-## Usage
+## 为什么要使用DSL封装?
+
+* 简洁
+* 可读性强
+* 统一管理应用内Dialog样式
+
+## 涉及到哪些Kotlin语言特性？
+
+* 扩展函数
+* 默认参数
+* 函数式编程
+* Function literal with receiver
+
+## 如何使用？
 
 ``` Kotlin
 showDialog {
@@ -48,3 +61,5 @@ showDialog {
     }
 }
 ```
+
+> sample只是举例如何实现DSL，封装请依据具体项目
