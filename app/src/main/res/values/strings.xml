@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dialog-Samples</string>
+    <string name="single_button_dialog">仅有一个按钮的Dialog</string>
+    <string name="normal_dialog">包含两个按钮的Dialog</string>
+</resources>
